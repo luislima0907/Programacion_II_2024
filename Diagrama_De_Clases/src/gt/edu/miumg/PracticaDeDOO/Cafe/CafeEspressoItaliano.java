@@ -50,7 +50,7 @@ public class CafeEspressoItaliano extends Cafe{
 
         //4. Leche(opcional)
         Scanner decision = new Scanner(System.in);
-        System.out.println("Quieres agregar leche en tu cafe?");
+        System.out.println("Quieres agregar leche en tu cafe? escribe 'si' si la quieres agregar.");
         String opcion = decision.nextLine();
         if (opcion.equalsIgnoreCase("si")){
             Leche leche = new Leche("Leche", "Fresca Pasteurizada", 10);

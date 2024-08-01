@@ -10,10 +10,10 @@ public abstract class Cafe {
     private String nombre;
     private String tamano;
     private int precio;
-    protected Agua agua;
-    protected Grano grano;
-    protected Azucar azucar;
-    protected Leche leche;
+    private Agua agua;
+    private Grano grano;
+    private Azucar azucar;
+    private Leche leche;
 
     public Cafe(String nombre, String tamano, int precio) {
         this.nombre = nombre;

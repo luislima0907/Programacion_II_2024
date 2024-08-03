@@ -2,7 +2,12 @@ package gt.edu.miumg.PrimerExamenParcialProgramacionII;
 
 public abstract class Sucursal {
     private String nombre;
-    private String descripcion;
+    private String direccion;
+
+    public Sucursal(String nombre, String direccion) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+    }
 
     public abstract void agregarEmpleado();
 

@@ -3,6 +3,10 @@ package gt.edu.miumg.PrimerExamenParcialProgramacionII;
 public class Pastel extends Postre{
     private String sabor;
 
+    public Pastel(){
+
+    }
+
     public Pastel(String nombre, String tamano, int precio, String sabor) {
         super(nombre, tamano, precio);
         this.sabor = sabor;

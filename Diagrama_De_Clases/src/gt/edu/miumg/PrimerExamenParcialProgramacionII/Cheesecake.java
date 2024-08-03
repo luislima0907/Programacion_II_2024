@@ -3,8 +3,12 @@ package gt.edu.miumg.PrimerExamenParcialProgramacionII;
 public class Cheesecake extends Postre{
     private String tipoDeQueso;
 
-    public Cheesecake(String nombre, String tamano, int precio, String tipoDeQueso, Masa masa, Relleno relleno, Cobertura cobertura){
-        super(nombre,tamano,precio,masa,relleno,cobertura);
+    public Cheesecake(){
+
+    }
+
+    public Cheesecake(String nombre, String tamano, int precio, String tipoDeQueso){
+        super(nombre,tamano,precio);
         this.tipoDeQueso = tipoDeQueso;
     }
 

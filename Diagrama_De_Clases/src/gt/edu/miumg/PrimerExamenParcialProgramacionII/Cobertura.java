@@ -5,6 +5,9 @@ public class Cobertura implements Ingrediente{
     private double cantidad;
     private String tipo;
 
+    public Cobertura(){
+
+    }
 
     public Cobertura(String nombre, double cantidad, String tipo) {
         this.nombre = nombre;

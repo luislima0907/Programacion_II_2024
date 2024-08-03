@@ -8,6 +8,16 @@ public abstract class Postre {
     private Relleno relleno;
     private Cobertura cobertura;
 
+    public Postre(){
+
+    }
+
+    public Postre(String nombre, String tamano, int precio) {
+        this.nombre = nombre;
+        this.tamano = tamano;
+        this.precio = precio;
+    }
+
     public Postre(String nombre, String tamano, int precio, Masa masa, Relleno relleno, Cobertura cobertura) {
         this.nombre = nombre;
         this.tamano = tamano;

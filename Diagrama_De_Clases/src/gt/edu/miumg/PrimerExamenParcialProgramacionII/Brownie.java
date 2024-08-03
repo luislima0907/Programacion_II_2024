@@ -3,6 +3,10 @@ package gt.edu.miumg.PrimerExamenParcialProgramacionII;
 public class Brownie extends Postre{
     private String tipoDeChocolate;
 
+    public Brownie(){
+
+    }
+
     public Brownie(String nombre, String tamano, int precio, String tipoDeChocolate) {
         super(nombre, tamano, precio);
         this.tipoDeChocolate = tipoDeChocolate;

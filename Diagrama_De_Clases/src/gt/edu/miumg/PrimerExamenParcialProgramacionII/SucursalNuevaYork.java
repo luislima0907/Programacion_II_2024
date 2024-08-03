@@ -2,6 +2,10 @@ package gt.edu.miumg.PrimerExamenParcialProgramacionII;
 
 public class SucursalNuevaYork extends Sucursal{
 
+    public SucursalNuevaYork(String nombre, String descripcion) {
+        super(nombre, descripcion);
+    }
+
     @Override
     public void agregarEmpleado() {
         Empleado fernan = new Empleado("Fernan", 5000, "Cocinero");

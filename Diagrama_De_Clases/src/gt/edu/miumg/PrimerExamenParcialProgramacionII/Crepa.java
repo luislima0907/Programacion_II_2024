@@ -4,6 +4,10 @@ public class Crepa extends Postre{
     private String tipoDeMasa;
     private double cantidad;
 
+    public Crepa(){
+
+    }
+
     public Crepa(String nombre, String tamano, int precio, String tipoDeMasa) {
         super(nombre, tamano, precio);
         this.tipoDeMasa = tipoDeMasa;
